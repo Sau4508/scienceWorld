@@ -1,0 +1,113 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+/* pannal */
+
+
+.panal{
+    width :100%;
+    height: 70pX;
+    background-color: #93b7be;
+    display: flex;
+    justify-content: flex-start;
+}
+.panal-logo{
+
+    background-image: url("logo.png");
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.panal-webName{
+
+    position: relative;
+    height: 15px;
+    color: #554348;
+    font-family: "Cedarville Cursive", cursive;;
+    width: 100px;
+    top: 50px;
+    left: 5px;
+}
+.panal-log_in{
+
+    height: 70px;
+    width: 100px;
+    display: flex;
+    position: absolute;
+    right: 150px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.panal-log_in:hover{
+
+    background-color: #747578 ;
+}
+.panal-start{
+
+    height: 70px;
+    width: 150px;
+    display: flex;
+    position: absolute;
+    right: 0px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4f5f5;
+    
+}
+
+.panal-start i,.panal-log_in i{
+
+    padding-right: 10px;
+}
+.panal-start:hover{
+
+    background-color:#daf8f8 ;
+}
+/* navabr  */
+.navbar{
+    display:flex;
+    background: #747578;
+    height: 75px;
+    width: 100%;
+    align-items: center;
+    
+}
+.nav{
+   
+    display: flex;
+    align-items: center;
+    height: 75px;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+}
+.nav i{
+    margin-left: 5px;
+}
+
+.navbar-search{
+    position: absolute;
+    right: 0px;
+    height: 75px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-search i{
+    margin-right: 5px;
+}
+
+.nav:hover,.navbar-search:hover{
+
+    background-color:  #93b7be;
+}
