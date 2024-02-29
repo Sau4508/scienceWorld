@@ -4,6 +4,7 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
     color: black;
+    
 }
 /* pannal */
 
@@ -110,4 +111,160 @@
 .nav:hover,.navbar-search:hover{
 
     background-color:  #93b7be;
+}
+
+
+.contant1{
+    background-image: url("pic3.jpg");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    /* position: absolute; */
+}
+.contant1-text{
+    height: 320px;
+    width: 800px;
+    /* border: 2px solid pink; */
+    
+  
+}
+.contant1-text h2, .contant1 pre{
+    position: relative;
+    color: white;
+    top: 134px;
+    left: 75px;
+}
+
+.contant1-text h2{
+    font-size: 50px;
+}
+.contant1-text pre{
+    margin-top: 25px;
+    font-size: 25px;
+}
+.contant1-btn button{
+    height: 50px;
+    width: 300px;
+    background: transparent;
+    border-radius: 30px;
+    border: 2px solid white;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    bottom: 0px;
+    left: 109px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+}
+
+.contant1-btn button :hover{
+    text-decoration: underline;
+}
+#icon:hover{
+    text-decoration: none;
+}
+.contant1-btn div{
+    color: white;
+}
+.contant1-btn i{
+    color: white;
+    padding-right: 8px;
+    font-size: 40px;
+}
+.contant2{
+    background-color:#d4f5f5;
+     height: 300px;
+    width: 100%; 
+    display: flex;
+    /* position: relative; 
+    top: 10px; */
+    /* box-shadow: 5px 5px 2px 2px #6c6d72; */
+}
+.contant2-text{
+    height: 300px;
+    width: 500px;
+}
+
+.contant2-text h2 ,.contant2 pre{
+    
+    position: relative;
+    color: #554348;
+    top: 50px;
+    left: 75px;
+}
+.contant2-text pre{
+    margin-top: 25px;
+    font-size: 25px;
+    color: #747578;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.contant2-text h2{
+    font-size: 50px;
+}
+.contant2-right{
+    height: 300px;
+    width: 700px;
+    position: absolute;
+
+    right:0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contant2-box{
+    height:60px;
+    width: 250px;
+    margin: 20px;
+    /* background-color: orangered; */
+    border: 2px solid black;
+    border-radius: 30px;
+    
+
+
+}
+#box1,#box2,#box5,#box6{
+    position: relative;
+        left: 120px;
+
+}
+
+.profile{
+    position: relative;
+    top: 5px;
+    left: 8px;
+    
+    height: 50px;
+    width: 50px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+
+}
+#profile1{
+    background-image: url("profiles/prof1.jpeg");
+    background-size: cover;
+}
+#profile2{
+    background-image: url("profiles/prof2.jpeg");
+    background-size: cover;
+}
+#profile3{
+    background-image: url("profiles/prof3.jpeg");
+    background-size: cover;
+}
+#profile4{
+    background-image: url("profiles/prof4.jpeg");
+    background-size: cover;
+}
+#profile5{
+    background-image: url("profiles/prof5.jpeg");
+    background-size: cover;
+}
+#profile6{
+    background-image: url("profiles/prof6.jpeg");
+    background-size: cover;
 }
