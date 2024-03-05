@@ -4,6 +4,7 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
     color: black;
+    box-sizing: border-box;
     
 }
 /* pannal */
@@ -221,12 +222,17 @@
     width: 250px;
     margin: 20px;
     /* background-color: orangered; */
-    border: 2px solid black;
+  
+    box-shadow: 3px 3px rgba(177, 175, 175, 0.644);
     border-radius: 30px;
     
 
 
 }
+.contant2-box:hover{
+    border: 3px solid #554348; ;
+}
+
 #box1,#box2,#box5,#box6{
     position: relative;
         left: 120px;
@@ -235,7 +241,7 @@
 
 .profile{
     position: relative;
-    top: 5px;
+    top: 2px;
     left: 8px;
     
     height: 50px;
@@ -267,4 +273,233 @@
 #profile6{
     background-image: url("profiles/prof6.jpeg");
     background-size: cover;
+}
+
+.profile div{
+    
+    width:108px;
+    height: 30pxpx;
+    color: #554348;;
+    font-size: 18px;
+
+    position:relative;
+    left: 77px;
+    top: 16px;
+}
+
+.contant3{
+    height: 870px;
+    width: 100%;
+    background-color:  #93b7be;;
+    display: flex;
+    flex-direction: row;
+}
+.contant3-left h2 ,.contant3-left pre{
+    
+    position: relative;
+    color: white;
+    top: 50px;
+    left: 75px;
+}
+.contant3-left pre{
+    margin-top: 25px;
+    font-size: 25px;
+    /* color: #747578; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.contant3-left h2{
+    font-size: 40px;
+    color: #554348;
+}
+.contant-left-boxes{
+
+    position: relative;
+    top: 40px;
+    left: 75px;
+}
+
+.contant3-left-box{
+   
+    height: 70px;
+    width: 330px;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+
+}
+.contant3-left-box:hover{
+ border: 2px solid white;
+}
+#contant3-left-box{
+ border: 2px solid white;
+}
+
+.contant3-left-box div{
+    color: #747578;
+    font-size: 20px;
+}
+
+.contant3-left-box i{
+    margin-right: 10px;
+    color: #747578;
+    font-size: 25px;
+}
+
+.contant3-right{
+
+    position: relative;
+    top: 70px;
+    left: 240px;
+  
+}
+
+.contant3-right h2{
+    font-size: 35px;
+    color: #554348;
+    margin-bottom: 10px;
+}
+.contant3-right pre{
+
+    /* font-size: 25px; */
+    /* padding-right:10px ; */
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+.contant3-right-screen{
+
+    background-image: url("profiles/screen3.jpg");
+    height: 400px;
+    width: 700px;
+    position: relative; 
+  top: 40px;
+    /* right: 200px; */ 
+    border-radius: 15px;
+    
+    background-size: cover;
+}
+
+.contant3-right-screen:hover{
+    height: 409px;
+    width: 709px;
+}
+
+.contant3-right-boxes{
+
+    display: flex;
+    position: absolute;
+    bottom:180px;
+    height: 70px;
+    width: 700px;
+    flex-wrap: wrap;
+}
+.contant3-right-box{
+
+    /* border: 2px solid orange; */
+    
+    height: 50px;
+    width: 200px;
+    margin: 0px 30px 30px 0px;
+    background-color :   #aacbd1;
+    color: #554348;
+    border-radius:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contant3-right-box:hover{
+
+    background-color :   #c4e0e6;
+}
+.contant4{
+    width: 100%;
+    height: 450px;
+    background-color:#d4f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contant4-text{
+    /* border: 2px solid red; */
+    text-align: center;
+
+    height: 180px;
+    width: 1000px;
+}
+.contant4-text h2{
+    
+    
+    color: #554348;
+    margin-bottom:10px ;
+   
+}
+.contant4-text p{
+    font-size: 20px;
+    padding: 5px;
+   color: #6d5d61;
+
+}
+.contant4-logo{
+
+    background-image: url("profiles/logo2.jpg");
+    height: 150px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.contant5{
+    width: 100%;
+    height: 450px;
+    background-color:#706266;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contant5-text{
+    /* border: 2px solid red; */
+    text-align: center;
+
+    height: 100px;
+    width: 500px;
+    /* position: relative;
+    top:50px; */
+}
+
+
+.contant5-text h2{
+    color: #eeeeee;
+    
+    font-size: 30px;
+    
+   
+   
+} 
+
+.contant5-button{
+
+    position: relative;
+    height: 60px;
+    width: 320px;
+    background-color: #baf5f5;
+    top:40px;
+    font-size: 28px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    
+}
+.contant5-button i{
+
+    margin-right: 35px;
 }
