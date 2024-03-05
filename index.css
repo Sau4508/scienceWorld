@@ -459,7 +459,7 @@
 .contant5{
     width: 100%;
     height: 450px;
-    background-color:#706266;;
+    background-color:#817c7d;;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -498,8 +498,154 @@
     border: 2px solid transparent;
     border-radius: 5px;
     
+
+}
+.contant5-button:hover{
+    height: 62px;
+    width: 322px;
+    background-color: #c7f1f1;
+
 }
 .contant5-button i{
 
     margin-right: 35px;
 }
+
+.foot1{
+
+    height: 360px;
+    width: 100%;
+    background-color: #747578; 
+    display: flex;
+}
+
+.foot1-left{
+    /* border: 2px solid orange; */
+    width: 30%;
+height: 200px;
+position: relative;
+top: 60px;
+left: 90px;
+
+}
+
+.foot1-left h2{
+ 
+        font-size: 30px;
+        color: white;
+        /* margin-bottom: 10px; */
+    
+}
+.foot1-left-button{
+
+    position: relative;
+    height: 60px;
+    width: 320px;
+    background-color: #baf5f5;
+    top:40px;
+    font-size: 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    
+
+}
+.foot1-left-button:hover{
+    height: 65px;
+    width: 325px;
+    background-color:#c7f1f1;
+
+}
+.foot1-left-button i{
+
+    margin-right: 35px;
+}
+
+.foot1-right{
+
+    
+    /* border: 2px solid black; */
+    height: 350px;
+    width: 50%;
+    position: relative;
+    top: 60px;
+    left: 300px;
+    color: white;
+    
+ 
+
+}
+.foot1-right h2{
+    font-size: 30px;
+    color: white;
+}
+.foot1-right p{
+    /* height: 10px; */
+    display: inline-block;
+    width: 300px;
+    margin: 5px 10px 10px 10px;
+    color: white;
+    
+
+}
+
+.foot2{
+    height: 360px;
+    width: 100%;
+    background-color:#93b7be;
+    display: flex;
+}
+.foot2 div{
+    height: 280px;
+
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    top: 50px;
+  
+    
+
+}
+.foot2  h2{
+    font-size: 20px;
+    color: black;
+}
+.foot2  p{
+    
+    margin: 5px 10px 10px 0px;
+    color:#554348;
+    
+
+}
+.foot2  p:hover{
+    text-decoration: underline;
+}
+
+#foot2-box-right{
+
+    /* border: 2px solid green; */
+    margin-left: 40px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+#foot2-box-right div{
+    background-image: url(logo.png);
+    /* border: 2px solid orange; */
+    height: 98px;
+    width: 100px;
+    background-size: cover;
+     position: relative; 
+    top: 0px;
+    right: 0px; 
+}
+#foot2-box-right span{
+    position: relative;
+    bottom: 3px;
+    align-self: center;
+    left: -18px;
+    bottom: -9px;
+    color:#554348; ;
+}
+
+
